@@ -1,65 +1,65 @@
-\# Face and Body Detection Camera
+# Face and Body Detection Camera
 
 This is a Python script that uses OpenCV to start the camera and record
 video when it detects a face or body in the frame. It is a simple
 implementation of computer vision techniques for real-time object
 detection.
 
-\## Prerequisites
+## Prerequisites
 
-\- Python 3.x - OpenCV library - Numpy library
+- Python 3.x - OpenCV library - Numpy library
 
-\## Installation
+## Installation
 
-1\. Clone the repository:
+1. Clone the repository:
 
-\`\`\` git clone
-https://github.com/your-username/face-body-detection-camera.git \`\`\`
+``` git clone
+https://github.com/your-username/face-body-detection-camera.git ```
 
-2\. Navigate to the project directory:
+2. Navigate to the project directory:
 
-\`\`\` cd face-body-detection-camera \`\`\`
+``` cd face-body-detection-camera ```
 
-3\. Install the required dependencies:
+3. Install the required dependencies:
 
-\`\`\` pip install -r requirements.txt \`\`\`
+``` pip install -r requirements.txt ```
 
-\## Usage
+## Usage
 
-1\. Run the script:
+1. Run the script:
 
-\`\`\` python camera.py \`\`\`
+``` python camera.py ```
 
-2\. The camera will start, and the live video feed will be displayed in
+2. The camera will start, and the live video feed will be displayed in
 a window.
 
-3\. When a face or body is detected in the frame, the script will start
+3. When a face or body is detected in the frame, the script will start
 recording a video.
 
-4\. Press \`q\` to stop the camera and exit the script.
+4. Press `q` to stop the camera and exit the script.
 
-5\. The recorded videos will be saved in the \`output\` directory.
+5. The recorded videos will be saved in the `output` directory.
 
-\## Customization
+## Customization
 
 You can customize the behavior of the script by modifying the following
-parameters in the \`camera.py\` file:
+parameters in the `camera.py` file:
 
-\- \`face_cascade_path\`: Path to the Haar cascade XML file for face
+- `face_cascade_path`: Path to the Haar cascade XML file for face
 detection. You can replace it with your own trained cascade file if
-desired. - \`body_cascade_path\`: Path to the Haar cascade XML file for
+desired. - `body_cascade_path`: Path to the Haar cascade XML file for
 body detection. You can replace it with your own trained cascade file if
-desired. - \`output_directory\`: Directory where the recorded videos
-will be saved. By default, it is set to the \`output\` directory.
+desired. - `output_directory`: Directory where the recorded videos
+will be saved. By default, it is set to the `output` directory.
 
-\## License
+## License
 
 This project is licensed under the MIT License. See the
-\[LICENSE\](LICENSE) file for more information.
+[LICENSE](LICENSE) file for more information.
 
-\## Acknowledgments
+## Acknowledgments
 
-\- The face detection functionality in this script is based on the
+- The face detection functionality in this script is based on the
 OpenCV library. - The body detection functionality in this script is
 based on the OpenCV library.
 
