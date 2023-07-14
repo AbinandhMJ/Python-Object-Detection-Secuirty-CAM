@@ -53,11 +53,6 @@ body detection. You can replace it with your own trained cascade file if
 desired. - `output_directory`: Directory where the recorded videos
 will be saved. By default, it is set to the `output` directory.
 
-## License
-
-This project is licensed under the MIT License. See the
-[LICENSE](LICENSE) file for more information.
-
 ## Acknowledgments
 
 - The face detection functionality in this script is based on the
