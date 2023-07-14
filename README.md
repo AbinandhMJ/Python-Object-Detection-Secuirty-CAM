@@ -1,4 +1,4 @@
-# Face and Body Detection Camera
+# Python Object Detection Security CAM
 
 This is a Python script that uses OpenCV to start the camera and record
 video when it detects a face or body in the frame. It is a simple
@@ -14,7 +14,8 @@ detection.
 1. Clone the repository:
 
 ``` git clone
-https://github.com/your-username/face-body-detection-camera.git ```
+https://github.com/your-username/face-body-detection-camera.git
+```
 
 2. Navigate to the project directory:
 
